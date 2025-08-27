@@ -432,3 +432,5 @@ public record DateProcessingRequest(string? DateString, string? Format);
 public record FileUploadRequest(string? FileName, byte[]? Content, string? ContentType);
 public record DatabaseOperationRequest(int? UserId, string? Action, string? Data);
 public record ExternalApiRequest(string? Endpoint, Dictionary<string, object>? Parameters);
+
+if (dictionary["EXECUTE"] == "true")
